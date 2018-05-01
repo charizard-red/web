@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import PageControl from './PageControl'
 
 class PageSignup extends Component{
   render(){
     return(
-      <h1>Login Page</h1>
+      <PageControl>
+        <h1>Login Page</h1>
+      </PageControl>
+
     )
   }
 }
