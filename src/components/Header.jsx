@@ -37,16 +37,17 @@ class Header extends Component {
           </Row>
         </Navbar>
 
-        <Navbar className="animated flip" color="info" light expand="md">
+        <Navbar className="animated tada" color="info" light expand="md">
+          <SearchBar />
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Button className="animated flipInX" tag={Link} to="/">Home</Button>
+              <Button className="animated swing" tag={Link} to="/">Home</Button>
             </NavItem>
             <NavItem>
-              <Button className="animated flipInX" tag={Link} to="/Login">Login</Button>
+              <Button className="animated swing" tag={Link} to="/Login">Login</Button>
             </NavItem>
             <NavItem>
-              <Button className="animated flipInX" tag={Link} to="/SignUp">Signup</Button>
+              <Button className="animated swing" tag={Link} to="/SignUp">Signup</Button>
             </NavItem>
           </Nav>
         </Navbar>

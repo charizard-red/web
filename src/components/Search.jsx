@@ -20,7 +20,7 @@ class SearchBar extends Component {
 
   render () {
     return (
-      <div className='searchbar-container'>
+      <div className='searchbar-container animated swing'>
         <form onSubmit={e => e.preventDefault()}>
           <input
             type='text'
