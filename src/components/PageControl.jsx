@@ -7,8 +7,8 @@ const PageControl = props => {
     <div>
       <Header />
       {props.children}
-      {Any Web Page}
-      {Any Web Page}
+      {/*Any Web Page*/}
+      {/*Any Web Page*/}
 
     </div>
   );
