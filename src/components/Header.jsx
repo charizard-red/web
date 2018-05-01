@@ -23,28 +23,34 @@ class Header extends Component {
   }
   render() {
     return (
+      <div>
 
-          <div>
-            <Navbar color="light" light expand="md">
-              <NavbarBrand className='NavbarBrand'href="/">OTW-DOC</NavbarBrand>
-              <SearchBar />
-              <NavbarToggler onClick={this.toggle} />
-              <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto" navbar>
-                  <NavItem>
-                    <Button tag={Link} to="/">Home</Button>
-                  </NavItem>
-                  <NavItem>
-                    <Button tag={Link} to="/Login">Login</Button>
-                  </NavItem>
-                  <NavItem>
-                    <Button tag={Link} to="/SignUp">Signup</Button>
-                  </NavItem>
-                </Nav>
-              </Collapse>
-            </Navbar>
+        <Navbar color="light" light expand="md">
+            <NavbarBrand className='NavbarBrand' href="/">OTW-DOC</NavbarBrand>
 
-          </div>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+
+          </Collapse><SearchBar />
+        </Navbar>
+
+        <Navbar color="info" light expand="md">
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <Button tag={Link} to="/">Home</Button>
+            </NavItem>
+            <NavItem>
+              <Button tag={Link} to="/Login">Login</Button>
+            </NavItem>
+            <NavItem>
+              <Button tag={Link} to="/SignUp">Signup</Button>
+            </NavItem>
+          </Nav>
+        </Navbar>
+
+
+      </div>
+
 
 
 
