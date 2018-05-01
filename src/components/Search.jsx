@@ -24,7 +24,7 @@ class SearchBar extends Component {
         <form onSubmit={e => e.preventDefault()}>
           <input
             type='text'
-            size='45'
+            size='20'
             placeholder='search hospital nearby'
             onChange={this.handleSearch.bind(this)}
             value={this.state.hospital} />

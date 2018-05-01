@@ -11,6 +11,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import SearchBar from './Search'
+import '../App.css'
 
 class Header extends Component {
   constructor(props) {
@@ -30,7 +32,8 @@ class Header extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">OTW-DOC</NavbarBrand>
+          <NavbarBrand className='NavbarBrand'href="/">OTW-DOC</NavbarBrand>
+          <SearchBar />
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -46,6 +49,7 @@ class Header extends Component {
             </Nav>
           </Collapse>
         </Navbar>
+
       </div>
     );
   }
