@@ -33,11 +33,11 @@ class Header extends Component {
             <Col md='6'><img className="LogoSized animated rubberBand" Src={logo}/></Col>
           </Row>
           <Row>
-            <Col md='6'>Logo</Col>
+            <Col className="animated rubberBand" md='6'>Rujukan Dokter Applicaton</Col>
           </Row>
         </Navbar>
 
-        <Navbar className="animated tada" color="info" light expand="md">
+        <Navbar color="info" light expand="md">
           <SearchBar />
           <Nav className="ml-auto" navbar>
             <NavItem>

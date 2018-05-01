@@ -4,6 +4,7 @@ import PageControl from './PageControl.jsx'
 class PageHome extends Component{
   render(){
     return(
+
       <PageControl>
         <h1>Home Page</h1>
       </PageControl>
@@ -11,4 +12,5 @@ class PageHome extends Component{
     )
   }
 }
+
 export default PageHome;
