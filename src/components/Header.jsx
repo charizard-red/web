@@ -35,10 +35,10 @@ class Header extends Component {
                     <Button tag={Link} to="/">Home</Button>
                   </NavItem>
                   <NavItem>
-                    <Button tag={Link} to="Login">Login</Button>
+                    <Button tag={Link} to="/Login">Login</Button>
                   </NavItem>
                   <NavItem>
-                    <Button tag={Link} to="SignUp">Signup</Button>
+                    <Button tag={Link} to="/SignUp">Signup</Button>
                   </NavItem>
                 </Nav>
               </Collapse>
