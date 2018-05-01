@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom'
 import SearchBar from './Search'
 import '../App.css'
 import logo from './Assets/Images/logo.png'
+import '../Animate.css'
 
 
 class Header extends Component {
@@ -29,23 +30,23 @@ class Header extends Component {
 
         <Navbar color="light" light expand="md">
           <Row>
-            <Col md='6'><img className="LogoSized" Src={logo}/></Col>
+            <Col md='6'><img className="LogoSized animated rubberBand" Src={logo}/></Col>
           </Row>
           <Row>
             <Col md='6'>Logo</Col>
           </Row>
         </Navbar>
 
-        <Navbar color="info" light expand="md">
+        <Navbar className="animated flip" color="info" light expand="md">
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Button tag={Link} to="/">Home</Button>
+              <Button className="animated flipInX" tag={Link} to="/">Home</Button>
             </NavItem>
             <NavItem>
-              <Button tag={Link} to="/Login">Login</Button>
+              <Button className="animated flipInX" tag={Link} to="/Login">Login</Button>
             </NavItem>
             <NavItem>
-              <Button tag={Link} to="/SignUp">Signup</Button>
+              <Button className="animated flipInX" tag={Link} to="/SignUp">Signup</Button>
             </NavItem>
           </Nav>
         </Navbar>
