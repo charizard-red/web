@@ -1,4 +1,3 @@
-# Rudok ( Rujukan Dokter App)
+# Temu Dokter Web App
 
-Inline-style:
-![alt text](./components/Assets/Images/logo.png")
+![](./components/Assets/Images/logo.png)
