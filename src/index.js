@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './theme/lumen.css'
 import registerServiceWorker from './registerServiceWorker';
 import "./App.css"
 import 'font-awesome/css/font-awesome.min.css';

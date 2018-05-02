@@ -30,24 +30,21 @@ class Header extends Component {
 
         <Navbar color="light" light expand="md">
           <Row>
-            <Col md='6'><img className="LogoSized animated rubberBand" Src={logo}/></Col>
+            <Col md='6'><img className="LogoSized" Src={logo}/></Col>
           </Row>
           <Row>
-            <Col className="animated rubberBand" md='6'>Rujukan Dokter Applicaton</Col>
+            <Col md='6'>Rujukan Dokter Applicaton</Col>
           </Row>
         </Navbar>
 
-        <Navbar color="info" light expand="md">
+        <Navbar color="dark" dark expand="md">
           <SearchBar />
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Button className="animated swing" tag={Link} to="/">Home</Button>
+              <Button tag={Link} to="/">Home</Button>
             </NavItem>
             <NavItem>
-              <Button className="animated swing" tag={Link} to="/Login">Login</Button>
-            </NavItem>
-            <NavItem>
-              <Button className="animated swing" tag={Link} to="/SignUp">Signup</Button>
+              <Button tag={Link} to="/Login">Login</Button>
             </NavItem>
           </Nav>
         </Navbar>
