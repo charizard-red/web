@@ -11,10 +11,16 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-import SearchBar from './Search'
 import '../App.css'
 
-class Header extends Component {
+import {Route, NavLink as RRNavLink, HashRouter} from "react-router-dom";
+
+import Home from './Home';
+import Login from './Login';
+import SearchBar from './Search';
+
+
+class NavBar extends Component {
   constructor(props) {
     super(props);
 
@@ -30,29 +36,32 @@ class Header extends Component {
   }
   render() {
     return (
+      <HashRouter>
       <div>
+
         <Navbar color="light" light expand="md">
-          <NavbarBrand className='NavbarBrand'href="/">OTW-DOC</NavbarBrand>
+          <NavbarBrand className='NavbarBrand' to="/" tag={RRNavLink}>APP DOC</NavbarBrand>
           <SearchBar />
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="">HOME</NavLink>
+                <NavLink to="/" tag={RRNavLink}>HOME</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">LOG IN</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="">SIGN UP</NavLink>
+                <NavLink to='/login' tag={RRNavLink}>LOG IN</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
 
+        <Route exact path='/' component={Home}/>
+        <Route path='/login' component={Login}/>
+
       </div>
+      </HashRouter>
     );
   }
 }
 
-export default Header;
+export default NavBar;
