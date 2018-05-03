@@ -20,12 +20,12 @@ class SearchBar extends Component {
 
   render () {
     return (
-      <div className='searchbar-container animated swing'>
+      <div className='searchbar-container '>
         <form onSubmit={e => e.preventDefault()}>
           <input
             type='text'
             size='20'
-            placeholder='search hospital nearby'
+            placeholder='search'
             onChange={this.handleSearch.bind(this)}
             value={this.state.hospital} />
           <button

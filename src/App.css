@@ -11,6 +11,51 @@
   color:#17a2b8;
 }
 .LogoSized{
-  width: 150px;
-  height: 75px;
+  height: 70px;
+}
+.BodyDoc{
+  background-image: url("h.jpg");
+  height: 100%; width: 100%;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position{
+  margin-top: -70px;
+}
+.heightSize{
+  height: 85px;
+}
+.hotlineHeigth{
+  margin-top: -30px;
+  margin-left: 180px;
+}
+.socialSized{
+  width: 30px; height: 30px; margin-top: -63px; padding: 2px;
+}
+.marginLeftHead{
+  margin-left: 13px;
+}
+.marginLeftHead2{
+  margin-left: 0px;
+}
+.marginLeftHead3{
+  margin-left: 20px;
+}
+.searchStyle{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.searchStyle:focus{
+  width: 100%;
 }

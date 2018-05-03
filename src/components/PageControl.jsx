@@ -1,13 +1,14 @@
 import React from "react";
 
-import Header from "./Header";
+import BodyMain from "./BodyMain";
 import {Container} from 'reactstrap'
 
 const PageControl = props => {
   return (
     <div>
       <Container>
-        <Header />
+        <BodyMain />
+
         {props.children}
         {/*Any Web Page*/}
         {/*Any Web Page*/}

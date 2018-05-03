@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
+import './App.css';
+
 import Example from './components/FirstPC';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import PageHome from './components/PageHome'
@@ -9,13 +10,19 @@ import PageSignup from './components/PageSignup'
 class App extends Component {
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route exact path='/' component={PageHome} />
-          <Route path='/Login' component={PageLogin} />
-          <Route path='/SignUp' component={PageSignup} />
-        </Switch>
-      </Router>
+      <div>
+        <Router>
+          <Switch>
+            <div className="BodyDoc">
+              <Route exact path='/' component={PageHome} />
+              <Route path='/Login' component={PageLogin} />
+              <Route path='/SignUp' component={PageSignup} />
+            </div>
+
+          </Switch>
+        </Router>
+      </div>
+
 
     );
   }
