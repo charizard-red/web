@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Row, Col, Jumbotron, Container } from "reactstrap";
-import logo from "./Assets/Images/logo.png";
 
-import "../Animate.css";
 import SliderImages from "./SliderImages";
 import NavigationBar from "./NavigationBar";
 import SocialIcon from "./SocialIcon";
+
+import LOGO from "../assets/temudokter-logo.png";
 
 class BodyMain extends Component {
   render() {
@@ -20,7 +20,7 @@ class BodyMain extends Component {
                   <img
                     alt="Temu Dokter Logo"
                     className="LogoSized animated rubberBand position"
-                    Src={logo}
+                    Src={LOGO}
                   />
                 </Col>
                 <Col xs="6" sm="3" className="hotlineHeigth">
