@@ -20,18 +20,19 @@ class SearchBar extends Component {
 
   render () {
     return (
-      <div className='searchbar-container '>
+      <div className='searchbar-container DivSearchPosition '>
         <form onSubmit={e => e.preventDefault()}>
           <input
+            className='SearchStyle'
             type='text'
             size='20'
             placeholder='search'
             onChange={this.handleSearch.bind(this)}
             value={this.state.hospital} />
-          <button
+          <button className='SearchButton'
             type='submit'
             onClick={this.handleGoClick.bind(this)}>
-            Search
+            <img src="" />
           </button>
         </form>
       </div>

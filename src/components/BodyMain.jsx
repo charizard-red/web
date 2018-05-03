@@ -4,6 +4,8 @@ import { Row, Col, Jumbotron, Container } from "reactstrap";
 import SliderImages from "./SliderImages";
 import NavigationBar from "./NavigationBar";
 import SocialIcon from "./SocialIcon";
+import Search from './Search';
+import '../App.css'
 
 import LOGO from "../assets/images/temudokter-logo.png";
 
@@ -26,8 +28,13 @@ class BodyMain extends Component {
                 <Col xs="6" sm="3" className="hotlineHeigth">
                   Hot Line : 0812-9422-5798{" "}
                 </Col>
-                <Col sm="4">
-                  <SocialIcon />
+                <Col >
+                  <Row>
+                    <Col><SocialIcon /></Col>
+                    <Col><Search /></Col>
+                  </Row>
+
+
                 </Col>
               </Row>
             </Container>

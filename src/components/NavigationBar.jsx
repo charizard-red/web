@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav, Button, NavItem, Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import SearchBar from "./Search";
+
 
 class NavigationBar extends Component {
   render() {
@@ -30,7 +30,7 @@ class NavigationBar extends Component {
           {" "}
         </Col>
         <Col sm="4" className="marginLeftHead3">
-          <SearchBar />
+          <input type="text" />
         </Col>
       </Navbar>
     );
