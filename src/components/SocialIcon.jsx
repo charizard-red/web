@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import FacebookLogo from "./Assets/Images/facebook.svg";
-import InstagramLogo from "./Assets/Images/instagram.png";
-import TwitterLogo from "./Assets/Images/tweeter.png";
 import { Link } from "react-router-dom";
+
+import FacebookLogo from "../assets/images//facebook.svg";
+import InstagramLogo from "../assets/images//instagram.png";
+import TwitterLogo from "../assets/images//tweeter.png";
 
 class SocialIcon extends Component {
   render() {
@@ -12,14 +13,14 @@ class SocialIcon extends Component {
           <img
             alt="Facebook"
             className="socialSized marginLeftHead"
-            Src={FacebookLogo}
+            src={FacebookLogo}
           />
         </Link>
         <Link to="#">
-          <img alt="Instagram" className="socialSized" Src={InstagramLogo} />
+          <img alt="Instagram" className="socialSized" src={InstagramLogo} />
         </Link>
         <Link to="#">
-          <img alt="Twitter " className="socialSized" Src={TwitterLogo} />
+          <img alt="Twitter " className="socialSized" src={TwitterLogo} />
         </Link>
       </div>
     );

@@ -5,7 +5,7 @@ import SliderImages from "./SliderImages";
 import NavigationBar from "./NavigationBar";
 import SocialIcon from "./SocialIcon";
 
-import LOGO from "../assets/temudokter-logo.png";
+import LOGO from "../assets/images/temudokter-logo.png";
 
 class BodyMain extends Component {
   render() {
@@ -20,7 +20,7 @@ class BodyMain extends Component {
                   <img
                     alt="Temu Dokter Logo"
                     className="LogoSized animated rubberBand position"
-                    Src={LOGO}
+                    src={LOGO}
                   />
                 </Col>
                 <Col xs="6" sm="3" className="hotlineHeigth">
