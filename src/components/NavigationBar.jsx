@@ -17,16 +17,15 @@ class NavigationBar extends Component {
           </Nav>
           </Col>
 
-
           <Col className="marginLeftHead2" sm="12">
-  <Nav className="ml-auto" navbar>
-            <NavItem>
-              <Button tag={Link} to="/Login">
-                Login
-              </Button>
-            </NavItem>
-          </Nav>
-        </Col>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <Button tag={Link} to="/Login">
+                  Login
+                </Button>
+              </NavItem>
+            </Nav>
+          </Col>
 
       </Navbar>
     );
