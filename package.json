@@ -10,7 +10,7 @@
     "react-responsive-carousel": "^3.1.37",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "reactstrap": "^5.0.0"
+    "reactstrap": "^6.0.1"
   },
   "scripts": {
     "postinstall": "./setup.sh",
