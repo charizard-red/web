@@ -15,7 +15,7 @@ class PageSignup extends Component {
   render() {
     return (
       <PageControl>
-        <div nameClass="signUpContainer">
+        <div className="signUpContainer">
           <h1>Signup Page</h1>
 
           <Form inline>

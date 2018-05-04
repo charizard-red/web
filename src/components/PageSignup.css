@@ -1,3 +1,16 @@
-div .signUpContainer {
-  color: blue;
+.signUpContainer {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+form {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-control {
+  margin-right: 50px;
 }
