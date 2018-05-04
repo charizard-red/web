@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
-import PageControl from './PageControl'
+import PageControl from './PageControl';
+import HeaderLogin from './HeaderLogin'
+
 
 class PageLogin extends Component {
   render() {
-    return (<div>
-      <PageControl>
+    return (
+      <div>
+      <HeaderLogin />
         <form name='login'>
           <div class="wrapper">
             <form class="form-signin">
@@ -20,8 +23,6 @@ class PageLogin extends Component {
             </form>
           </div>
         </form>
-      </PageControl>
-
     </div>)
   }
 }
