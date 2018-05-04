@@ -1,4 +1,6 @@
-# Rudok ( Rujukan Dokter App)
+# Temu Dokter Web App
 
-Inline-style:
-![alt text](./components/Assets/Images/logo.png")
+* Development: http://localhost:3000
+* Production: http://temudokter-web.netlify.com
+
+![](./components/Assets/Images/logo.png)

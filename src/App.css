@@ -1,5 +1,6 @@
 @import "/Assets/css/animate.css"
 
+
 .NavbarBrand {
   margin: 0;
   position: absolute;
@@ -11,6 +12,57 @@
   color:#17a2b8;
 }
 .LogoSized{
-  width: 150px;
-  height: 75px;
+  height: 70px;
+}
+.BodyDoc{
+  background-image: url("./assets/images/h.png");
+  height: 100%; width: 100%;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position{
+  margin-top: -70px;
+}
+.heightSize{
+  height: 85px;
+}
+.hotlineHeigth{
+  margin-top: -30px;
+  margin-left: 80px;
+}
+.socialSized{
+  width: 30px; height: 30px; margin-top: -63px; padding: 2px;
+}
+.marginLeftHead{
+  margin-left: 110px;
+}
+.marginLeftHead2{
+  margin-left: 0px;
+}
+.marginLeftHead3{
+  margin-left: 20px;
+}
+
+.SearchStyle{
+  box-sizing: border-box; width: 70px;
+  border: 2px solid #ccc;
+
+  font-size: 16px;
+  background-color: white;
+  background-image: url('');
+  background-position: 10px 10px;
+
+
+  -webkit-transition: width 0.4s ease-in-out;
+}
+.SearchStyle:focus{
+  width: 80%;
+}
+.DivSearchPosition{
+  margin-top: -34px; margin-left: 20px;
+}
+.SearchButton{
+  width: 30px; background-repeat: no-repeat; background-color: none;
+  background-image: url('./assets/images/kacax.png');
 }
