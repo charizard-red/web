@@ -1,17 +1,11 @@
 import React, {Component} from 'react';
 import PageControl from './PageControl';
-import {
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText
-} from 'reactstrap';
+import {FormGroup, Label, Input} from 'reactstrap';
 
-class LoginPagePatient extends Component {
+class MakeAppointmentPage extends Component {
   render() {
-    return (<div>
+    return (
+      <div>
       <PageControl>
         <form>
           <FormGroup name="patientData">
@@ -37,38 +31,33 @@ class LoginPagePatient extends Component {
             <Label>Phone</Label>
             <Input placeholder=""/>
             <Label>Address</Label>
-            <Input type="textarea" name="text" id="exampleText" />
+            <Input type="textarea" name="text" id="exampleText"/>
             <Label>Birthdate</Label>
             <Input type="date" name="date" id="exampleDate" placeholder="date placeholder"/>
             <Label>Select a Clinic</Label>
             <Input type="select" name="select" id="exampleSelect">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+              <option>Clinic XXX</option>
+              <option>Clinic YYY</option>
+              <option>Clinic ZZZ</option>
             </Input>
             <Label>Select a Specialty</Label>
             <Input type="select" name="select" id="exampleSelect">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+              <option>General Practitioner</option>
+              <option>Dentist</option>
+              <option>Internist</option>
             </Input>
             <label>Appointment Date & Time</label>
             <Input type="date" name="date" id="exampleDate" placeholder="date placeholder"/>
             <Input type="select" name="select" id="exampleSelect">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+              <option>13:00</option>
+              <option>13:30</option>
+              <option>14:00</option>
+              <option>14:30</option>
+              <option>15:00</option>
             </Input>
-
           </FormGroup>
           <Label>Address</Label>
-          <Input type="textarea" name="text" id="exampleText" />
+          <Input type="textarea" name="text" id="exampleText"/>
           <button>Make an Appointment</button>
         </form>
       </PageControl>
@@ -77,4 +66,4 @@ class LoginPagePatient extends Component {
   }
 }
 
-export default LoginPagePatient;
+export default MakeAppointmentPage;

@@ -35,7 +35,6 @@ class SearchBar extends Component {
             type="submit"
             onClick={this.handleGoClick.bind(this)}
           >
-            <img src="" />
           </button>
         </form>
       </div>

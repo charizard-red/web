@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import PageHome from "./components/PageHome";
 import PageLogin from "./components/PageLogin";
+import MakeAppointmentPage from './components/MakeAppointmentPage'
+
 
 import "./App.css";
 import "./Animate.css";
@@ -16,6 +18,7 @@ class App extends Component {
             <div className="BodyDoc">
               <Route exact path="/" component={PageHome} />
               <Route path="/Login" component={PageLogin} />
+              <Route path="/makeappointmentpage" component={MakeAppointmentPage} />
             </div>
           </Switch>
         </Router>
