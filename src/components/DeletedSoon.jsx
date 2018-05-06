@@ -1,18 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import PageSignUp from './PageSignup'
 
 const SignUpGoogle = ({ match }) => (
   <div>
     <ul>
       <li>
-        <Link to={`${match.url}/makeappointment`}>{PageSignup}</Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/components`}>Components</Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
+        <Link to={`${match.url}/appointment`}>Sign Up</Link>
       </li>
     </ul>
 

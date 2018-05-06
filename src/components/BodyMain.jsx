@@ -3,9 +3,7 @@ import { Row, Col, Jumbotron, Container } from "reactstrap";
 
 import SliderImages from "./SliderImages";
 import NavigationBar from "./NavigationBar";
-import SocialIcon from "./SocialIcon";
-import Search from './Search';
-import '../App.css'
+import Search from "./Search";
 
 import LOGO from "../assets/images/temudokter-logo.png";
 
@@ -18,30 +16,22 @@ class BodyMain extends Component {
           <Jumbotron fluid>
             <Container fluid>
               <Row>
-                <Col xs="6" sm="3">
+                <Col xs="12" sm="6">
                   <img
                     alt="Temu Dokter Logo"
                     className="LogoSized animated rubberBand position"
                     src={LOGO}
                   />
                 </Col>
-                <Col xs="6" sm="3" className="hotlineHeigth">
-                  Hot Line : 0812-9422-5798{" "}
-                </Col>
-                <Col >
-                  <Row>
-                    <Col><SocialIcon /></Col>
-                    <Col><Search /></Col>
-                  </Row>
-
-
+                <Col xs="12" sm="6">
+                  <Search />
                 </Col>
               </Row>
             </Container>
           </Jumbotron>
         </div>
 
-        {/*Menu Vagigation Area*/}
+        {/*Menu Navigation Area*/}
         <NavigationBar />
         <SliderImages />
       </div>

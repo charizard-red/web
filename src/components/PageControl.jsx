@@ -1,22 +1,15 @@
 import React from "react";
+import { Container } from "reactstrap";
 
 import BodyMain from "./BodyMain";
-import {Container} from 'reactstrap'
-
 
 const PageControl = props => {
   return (
-    <div>
-      <Container>
-        <BodyMain />
+    <Container>
+      <BodyMain />
 
-        {props.children}
-        {/*Any Web Page*/}
-        {/*Any Web Page*/}
-      </Container>
-
-
-    </div>
+      {props.children}
+    </Container>
   );
 };
 
